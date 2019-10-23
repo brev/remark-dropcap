@@ -1,18 +1,20 @@
 {
   "name": "remark-dropcap",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Remark Plugin to auto-add cross-browser Drop Cap typography.",
   "author": "Brev Patterson <me@brev.name> (https://brev.name)",
   "bugs": {
     "url": "https://github.com/brev/remark-dropcap/issues"
   },
   "dependencies": {
+    "unist-util-visit": "^2.0.0"
+  },
+  "devDependencies": {
     "rehype-stringify": "^6.0.0",
     "remark-parse": "^7.0.1",
     "remark-rehype": "^5.0.0",
     "tape": "^4.11.0",
-    "unified": "^8.4.1",
-    "unist-util-visit": "^2.0.0"
+    "unified": "^8.4.1"
   },
   "homepage": "https://github.com/brev/remark-dropcap#readme",
   "keywords": [
