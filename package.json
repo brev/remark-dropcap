@@ -16,12 +16,18 @@
   },
   "homepage": "https://github.com/brev/remark-dropcap#readme",
   "keywords": [
-    "remark-dropcap",
+    "markdown",
+    "plugin",
     "remark",
+    "remark-dropcap",
     "rehype"
   ],
   "license": "MIT",
   "main": "index.js",
+  "repository": {
+    "url": "https://github.com/brev/remark-dropcap",
+    "type": "git"
+  },
   "scripts": {
     "test": "tape test.js"
   }
