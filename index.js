@@ -16,7 +16,7 @@ function visitor(node, index) {
 
   // replace what was first letter with dropcap markup
   node.children.unshift({
-    type: 'span',
+    type: 'emphasis',
     children: [{
       type: 'text',
       value: cap
