@@ -46,8 +46,8 @@ const dropcap = require('remark-dropcap')
 
 unified().
   use(dropcap, {    // defaults
-    classDropcap:   'dropcap',
-    classInvisible: 'invisible'
+    dropcapClass:   'dropcap',
+    invisibleClass: 'invisible'
   })
 ```
 
