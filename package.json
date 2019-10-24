@@ -1,8 +1,8 @@
 {
   "name": "remark-dropcap",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "private": false,
-  "description": "Remark Plugin to auto-add cross-browser Drop Cap typography.",
+  "description": "Remark Plugin to add accessible, cross-browser Drop Cap typography markup to first letter of first markdown paragraph.",
   "author": "Brev Patterson <me@brev.name> (https://brev.name)",
   "bugs": {
     "url": "https://github.com/brev/remark-dropcap/issues"
