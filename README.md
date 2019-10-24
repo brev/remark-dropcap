@@ -1,7 +1,7 @@
 # remark-dropcap
 
-This plugin generates cross-browser Drop Cap typography for the first letter
-of the first paragraph of your markdown input.
+[Remark][remark] plugin that generates cross-browser Drop Cap typography for 
+the first letter of the first paragraph of your markdown input.
 
 ## Syntax
 
@@ -27,6 +27,12 @@ Output HTML:
 </p>
 ```
 
+## Install
+
+```bash
+npm install --save remark-dropcap
+```
+
 ## Usage
 
 ```javascript
@@ -36,9 +42,18 @@ const dropcap = require('remark-dropcap')
 unified().use(dropcap)
 ```
 
+## Test
+
+```bash
+npm test
+```
+
 ## License
 
-MIT
+[MIT][mit]
 
 © 2019 Brev Patterson <me@brev.name> (https://brev.name)
+
+[mit]: https://github.com/brev/gatsby-remark-contianers/blob/master/LICENSE
+[remark]: https://remark.js.org/
 
