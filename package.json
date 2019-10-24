@@ -1,6 +1,6 @@
 {
   "name": "remark-dropcap",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": false,
   "description": "Remark Plugin to auto-add cross-browser Drop Cap typography.",
   "author": "Brev Patterson <me@brev.name> (https://brev.name)",

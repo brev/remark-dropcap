@@ -2,14 +2,16 @@ var visit = require('unist-util-visit')
 
     
 function visitor(node, index) {
+  // only work on first valid markdown paragraph encountered
+  if ((index > 1) ||
+      (!('children' in node)) ||
+      (node.children.length <= 0) ||
+      (!('value' in node.children[0]))) {
+    return
+  }
   var para = node.children[0].value
   var cap = para.charAt(0)
   var text = para.substr(1)
-
-  // only work on first paragraph encountered
-  if (index > 1) {
-    return
-  } 
 
   // remove first letter from text
   node.children[0].value = text
